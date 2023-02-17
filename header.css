@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image: url(home-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.bks1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius:50%;
+    margin-top: 80px;
+}
+.name{
+    color: white;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 5vw;
+    text-align: center;
+}
+.navigation-bar{
+    color:black;
+}
+.nav-link{
+    font-weight: 900;
+    color: white;
+}
+.nav-item{
+    padding-left: 40px;
+}
+.navigation-bar{
+    padding-left: 50px;
+}

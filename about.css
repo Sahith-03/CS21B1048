@@ -1,0 +1,41 @@
+#about{
+    background-image: radial-gradient(circle, #ffffff, #ebebec, #d7d7d9, #c3c4c7, #b0b1b5, #acaeb2, #a8acaf, #a4a9ab, #b0b5b5, #bec1bf, #cccdcb, #dad9d7);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.w3-progress-container{
+    width:150%;
+    height:1.5em;
+    position:relative;
+}
+.w3-progressbar{
+    background-color:#424141;
+    height:100%;
+    position:absolute;
+}
+.w3-round-xlarge{
+    border-radius:16px;
+}
+.about{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.skills{
+    display:flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-left: 800px;
+    padding-top: 200px; 
+}
+.skillset{
+    font-weight: 500;
+}
+.description{
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 200px;
+  width:40vw;
+}
+
